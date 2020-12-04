@@ -8,9 +8,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
-
 import javax.swing.JFrame;
-
 import sorting.visualizer.graphics.Picture;
 import sorting.visualizer.sorting.MasterSorter;
 import sorting.visualizer.sorting.Pixel;
@@ -51,6 +49,7 @@ public class Display extends Canvas implements Runnable {
 		this.setPreferredSize(size);
 		
 		initPixels();
+		
 	}
 	
 	
@@ -89,6 +88,7 @@ public class Display extends Canvas implements Runnable {
 		display.frame.setVisible(true);
 		
 		display.start();
+		
 	}
 	
 	
@@ -125,7 +125,6 @@ public class Display extends Canvas implements Runnable {
 		// It is set to 400 fps because 100 fps was way too slow.
 		final double ns = 1000000000.0 / 400;
 		double delta = 0;
-		int updates = 0;
 		int frames = 0;
 		
 		//When thread starts and [running = true], this method is called and renders everything to the screen
@@ -139,7 +138,6 @@ public class Display extends Canvas implements Runnable {
 			lastTime = now;
 			while(delta >= 1) {
 				update();
-				updates++;
 				delta--;
 			}
 			render();
@@ -150,7 +148,6 @@ public class Display extends Canvas implements Runnable {
 				timer += 1000;
 				frame.setTitle(title + " | " + frames + " fps");
 				frames = 0;
-				updates = 0;
 			}
 		}
 	}
