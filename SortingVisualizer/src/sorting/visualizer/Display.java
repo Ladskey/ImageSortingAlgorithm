@@ -58,7 +58,7 @@ public class Display extends Canvas implements Runnable {
 			myPixels[i] = new Pixel(picture.getPixels()[i], i);
 		}
 		
-		randomize();
+		//randomize();
 	}
 	
 	
