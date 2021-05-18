@@ -4,7 +4,7 @@ Scrambles an image's pixels and sorts them via BubbleSort
 
 Step 1) Get image
 
-![](Small-Projects/SortingVisualizer/JavaSortingVisualizer/resources/images/images/elmur_4.JPG)
+![](Small-Projects/SortingVisualizer/Java_Sorting_Visualizer/resources/images/images/elmur_4.JPG)
 
 
 Step 2) Randomize pixels
