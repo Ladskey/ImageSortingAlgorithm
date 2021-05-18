@@ -14,7 +14,7 @@ Step 2) Randomize pixels
 
 Step 3) Sort via Bubble Sort until the image is resorted
 
-![](Small-Projects/SortingVisualizer/resources/images/elmur_1.JPG)
+![](SortingVisualizer/resources/images/elmur_1.JPG)
 
 
 ![](Small-Projects/SortingVisualizer/resources/images/elmur_2.JPG)
