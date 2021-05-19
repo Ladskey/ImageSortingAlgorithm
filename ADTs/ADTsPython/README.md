@@ -1,2 +1,2 @@
 # My ADTs Library
-Useful Data strucutres I use 
+Useful Data structures I use 
