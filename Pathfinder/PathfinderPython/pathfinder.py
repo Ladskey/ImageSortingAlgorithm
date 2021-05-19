@@ -1,4 +1,4 @@
-import math, random, pygame, sys
+import math, pygame, sys, algorithms
 from pygame.locals import *
 
 pygame.init()
