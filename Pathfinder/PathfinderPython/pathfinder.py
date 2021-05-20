@@ -29,7 +29,7 @@ class Node:
         self.x = row * width
         self.y = column * width
         self.color = color
-        self.neighbors = []
+        self.neighbors = {}
         self.total_rows = total_rows
     
     def get_position(self):
@@ -54,7 +54,7 @@ class Node:
         self.color == WHITE
     
     def add_neighbors(self):    # TODO: Account for edge cases
-        self.neighbors.append((self.x+1, self.y), (self.x-1, self.y), (self.x, self.y+1), (self.x, self.y-1))
+        pass
 
     def add_visited(self):
         self.color = WHITE

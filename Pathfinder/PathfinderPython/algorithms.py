@@ -5,5 +5,8 @@ from pygame import *
 def A_Star(rows, width, start, end):
     pass
 
-def Dijkstra():
+def Dijkstra(rows, width, start, end):
+    pass
+
+def BreadthFirstSearch():
     pass
